@@ -148,6 +148,9 @@ def adjust_count(image_index, delta):
 # --------------------------
 # Main App Interface
 # --------------------------
+logo = "LogoSpaceMicrobesLab_White.png"
+st.logo(logo, size="large")
+
 st.title("Spore Counter")
 st.write("""
 Upload one or more images and crop them using the cropper below.
