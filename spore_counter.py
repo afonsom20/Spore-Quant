@@ -177,7 +177,7 @@ if uploaded_files:
         image_pil = Image.open(file).convert("RGB")
         st.subheader(f"Image {idx+1}")
         st.write("Define the crop region below:")
-        cropped = st_cropper(image_pil, realtime_update=True, key=f"crop_{idx}", aspect_ratio=(1,1))
+        cropped = st_cropper(image_pil, realtime_update=True, key=f"crop_{idx}", aspect_ratio=None)
         cropped_images.append(cropped)
     
     spore_counts = []
