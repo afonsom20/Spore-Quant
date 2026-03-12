@@ -39,4 +39,6 @@ SporeQuant follows a lightweight image-processing pipeline:
 **Using SporeQuant led to a 63% reduction in analysis time compared to manual counting.**
 
 ### Citation and Additional Information
-For additional information, please see our preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5912070
+If you use SporeQuant in your research, please cite our paper: 
+
+Mota, A., Schiele, A., Santos de Sousa, I., & Cortesão, M. (2026). Open-source digital tools for filamentous fungi analysis. _Journal of Microbiological Methods_, 107465. https://doi.org/10.1016/j.mimet.2026.107465 
